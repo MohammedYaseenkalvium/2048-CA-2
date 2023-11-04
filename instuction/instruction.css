@@ -1,0 +1,53 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #FF0A0A 0%, #8B1B7F 56.05%, #162CF6 100%);
+}
+#instruction{
+    color: #FFF;
+    font-family: FUN GAMES;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#instructions{
+    border-radius: 25px;
+    background: linear-gradient(180deg, #000 0%, rgba(8, 0, 0, 0.25) 100%);
+    color: #FFF;
+    font-family: Galdeano;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 20px 10px 20px;
+    }
+#letgo{
+    flex-shrink: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Nico Moji;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 25px;
+}
+#button{
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+#btnborder{
+    padding: 0;
+    border-radius: 25px;
+    border: 5px solid #8B1B7F;
+}

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #FF0A0A 0%, #162CF6 100%);
+    }
+#boxes{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr); /* 16 rows */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-gap: 10px;
+    width: 465px;
+    height: 465px;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: #fff; /* Set your desired background color */
+    border-radius: 25px;
+    border: 3px solid #000;
+    background: #D9D9D9;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.50);
+    margin-top: 13px;
+    margin-left: 13px;
+}
+#game{
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+    border: 3px solid #000;
+    background: rgba(217, 217, 217, 0.50);
+    box-shadow: 20px 20px 4px 0px rgba(0, 0, 0, 0.50);
+    padding: 10px 10px 1 10px;
+    margin-left: 500px;
+}
+
+
+
+
+
+#btnborder{
+    border-radius: 25px;
+    border: 5px solid red;
+    width: 210px;
+    margin-bottom: 700px;
+    margin-left: 70px;
+
+    
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    background:  rgba(0, 0, 0, 0.90);
+    background-size: 100% 100%;
+    mix-blend-mode: hard-light;
+    padding-top: 150px;
+    position: relative;
+    z-index: 5;
+
+}
+#game-over-text {
+    position: relative;
+    font-size: 60px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+    z-index: 10;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+#buttons {
+    display: flex;
+    gap: 20px;
+}
+
+#yes-button, #no-button {
+    background: #000;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+#text{
+    color: orangered;
+    font-size: 100px;
+    font-family: FUN GAMES;
+    font-weight: 400;
+      }
+#sorry{
+    color: rgb(107, 0, 0); 
+    font-size: 120px;
+    font-family: Fugaz One;
+    font-weight: 400;
+}
+#yes{
+    flex-shrink: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Nico Moji;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 25px;
+    border: 5px solid green;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#no{
+    flex-shrink: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Nico Moji;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 25px;
+    border: 5px solid red;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 150px;
+}
+#text{
+    font-size: 150px;
+}

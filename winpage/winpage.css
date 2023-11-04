@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #FF0A0A 0%, #162CF6 100%);
+    background-repeat: no-repeat;
+}
+
+#overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.60);
+    background-size: 100% 100%;
+    mix-blend-mode: hard-light;
+    position: relative;
+    z-index: 5;
+}
+
+#text {
+    color: white;
+    font-size: 80px;
+    font-family: FUN GAMES;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center; /* Center the text horizontally */
+}
+
+#button {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 20px;
+}
+
+#playagain {
+    color: white;
+    font-size: 40px;
+    font-family: Nico Moji;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 40%;
+    height: 30%;
+    background: black;
+    border-radius: 25px;
+    border: 5px #15ff00 solid;
+}

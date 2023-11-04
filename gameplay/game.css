@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #FF0A0A 0%, #162CF6 100%);
+    }
+#boxes{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr); /* 16 rows */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-gap: 10px;
+    width: 465px;
+    height: 465px;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: #fff; /* Set your desired background color */
+    border-radius: 25px;
+    border: 3px solid #000;
+    background: #D9D9D9;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.50);
+    margin-top: 13px;
+    margin-left: 13px;
+}
+#game{
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+    border: 3px solid #000;
+    background: rgba(217, 217, 217, 0.50);
+    box-shadow: 20px 20px 4px 0px rgba(0, 0, 0, 0.50);
+    padding: 10px 10px 1 10px;
+    margin-left: 500px;
+}
+#scoreboard{
+    width: 240px;
+    height: 80px;
+    border-radius: 25px;
+    background: rgba(217, 217, 217, 0.50);
+    box-shadow: 15px 25px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+#score{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(9, 0, 6, 0.81);
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+
+}
+#scorecard{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#Quit{
+    width: 200px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Nico Moji;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#btnborder{
+    border-radius: 25px;
+    border: 5px solid red;
+    width: 210px;
+    margin-bottom: 700px;
+    margin-left: 70px;
+
+    
+}
+#quit{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 150px;
+    margin-right: 25px;
+}
