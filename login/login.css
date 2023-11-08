@@ -24,9 +24,9 @@ html{
 #login-data{
     border-radius: 25px;
     background: rgba(0, 0, 0, 0.95);
-    width: 500px;
-    height: 500px ;
-    margin-top: 100px;
+    width: 35%;
+    height: 65% ;
+    margin-top: 8%;
 }
 p{
     font-family: Oxygen;
@@ -34,26 +34,26 @@ p{
 }
 #heading{
     text-align: center;
-    font-size: 50px;
+    font-size: 312.5%;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 50px;
+    margin-top: 10%;
 }
 #player-name{
-    font-size: 20px;
+    font-size: 125%;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     flex-shrink: 0;
-    padding-top: 40px;
-    padding-left: 50px;
+    padding-top: 5%;
+    padding-left: 10%;
 }
 #playername{
-    height: 20px;
+    height: 125%;
     font-family: Oxygen;
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 93.75%;
+    margin-top: 31.25;
     margin-left: 50px;
     width: 300px;
 

@@ -3,34 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
+    <title>2048</title>
     <link rel="stylesheet" href="game.css">
 </head>
 <body>
-    <div id="scorecard"><div id="scoreboard">
-        <p id="score">SCORE: 00</p>
-    </div></div>
-    <div id="game">
-        <div id="boxes">
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-            <div id="box"></div>
-        </div>
-     </div>
-    <div id="quit"> <a href="../gameover/gameover.html"><div id="btnborder"><button id="Quit">Quit</button></div></a></div>
+    <div id="scorecard">
+    <div id="scoreboard"><h1>2048</h1><h2>Score: <span id="score">0</span></h2></div></div>
+    <div id="board"></div>
+    <div id="quit"><div id="quitbutton"><button id="button">Quit</button></div></div>
     <script src="game.js"></script>
 </body>
 </html>
